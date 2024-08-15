@@ -63,7 +63,7 @@
 "scripts": {
   "build-css": "mkdirp dist && cleancss -o dist/styles.min.css styles.css && cleancss -o dist/settings.min.css settings.css"
 }
-
+```
 Теперь вы можете запускать автоматизированный процесс с помощью команды:
 
    ```bash
