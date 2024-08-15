@@ -63,3 +63,15 @@
 "scripts": {
   "build-html": "mkdirp dist && html-minifier-terser --input-dir . --output-dir dist --file-ext html --collapse-whitespace --remove-comments --minify-js true --minify-css true"
 }
+```
+
+## Запуск
+
+4. Теперь вы можете запускать автоматизированный процесс с помощью команды:
+
+   ```bash
+    npm run build-html
+   ```
+## Заключение
+Теперь ваши HTML-файлы сжаты и размещены в папке `dist`, что помогает уменьшить размер проекта и ускорить загрузку страницы.    
+
